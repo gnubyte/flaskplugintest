@@ -3,6 +3,6 @@
     "name": "MyIP",
     "author": "vladiuz1",
     "license": "MIT",
-    "description": "This plugin adds a /my-ip endpoint that shows the ip.",
+    "description": "This plugin adds a /ip/ip endpoint that shows the ip. (hopefully)",
     "version": "1.0.0"
 }
