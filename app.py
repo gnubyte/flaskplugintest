@@ -1,7 +1,12 @@
 # [START app]
 
-from flask import Flask
-from flask_plugins import PluginManager
+from flask import Flask, current_app
+from flask_plugins import PluginManager, Plugin
+
+class AppPlugin(Plugin):
+    def register_blueprint(self, blueprint, **kwargs):
+        """Registers a blueprint."""
+        current_app.register_blueprint(blueprint, **kwargs)
 
 
 
