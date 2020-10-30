@@ -1,5 +1,26 @@
 # flask-plugins-test
 
+
+
+
+### Maintainer steps taken
+gnubyte phastings@openmobo.com 4:04 AM 10/30/2020
+```
+ - OSX 10.15
+ - `pip 20.2.2 from /usr/local/lib/python3.8/site-packages/pip (python 3.8)`
+ - `Python 3.8.5`
+ ```
+
+  1. `python3 -m venv .` create virtual environment, to install flask & flask-plugins dependencies to
+  2. `source bin/activate` activate hte virtual environment
+  3. `pip3 install -r requirements.txt` install the requirements/dependencies
+  4. `FLASK_APP=app.py flask run` run the flask app. **running app.py directly as of the latest flask creates issues**
+  5. MAKE SURE YOUR FOLDER WITH THIS APP HAS THE SAME NAME AS THE IMPORT FILE IN `plugins/my_ip/__init__.py` line 7
+
+
+
+### Original Authors Steps to Reproduce
+
 ```bash
 $ python3 app.py 
 ```
